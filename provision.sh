@@ -54,7 +54,7 @@ sed -i 's/^# DBPassword=/DBPassword=zabbix123/' /etc/zabbix/zabbix_server.conf
 # Garante locale UTF-8
 apt install -y locales
 
-sed -i 's/^# pt_BR.UTF-8 UTF-8/pt_BR.UTF-8 UTF-8/' /etc/locale.gen
+sed -i 's/^# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
 
 locale-gen
 
@@ -72,7 +72,7 @@ systemctl enable zabbix-agent
 
 echo "================================================="
 echo " ZABBIX INSTALADO COM SUCESSO"
-echo " URL: http://$(hostname -I | awk '{print $1}')/zabbix"
+echo " URL: http://192.168.56.10/zabbix"
 echo " Banco: zabbix"
 echo " Usuário: zabbix"
 echo " Senha: zabbix123"
