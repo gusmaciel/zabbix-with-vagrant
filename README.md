@@ -37,7 +37,7 @@ Antes de iniciar, certifique-se de possuir:
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/zabbix-vagrant.git
+git clone https://github.com/gusmaciel/zabbix-with-vagrant
 cd zabbix-with-vagrant
 ```
 
@@ -85,7 +85,7 @@ zabbix
 **Senha**
 
 ```text
-zabbix
+password
 ```
 
 ## Acesso ao Zabbix
