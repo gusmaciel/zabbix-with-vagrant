@@ -38,7 +38,7 @@ Antes de iniciar, certifique-se de possuir:
 
 ```bash
 git clone https://github.com/seu-usuario/zabbix-vagrant.git
-cd zabbix-vagrant
+cd zabbix-with-vagrant
 ```
 
 ### 2. Inicializar a máquina virtual
